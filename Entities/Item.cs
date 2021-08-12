@@ -10,6 +10,6 @@ namespace Catalog.Entities
 
        public decimal Price  { get; init; }
 
-       public DateTimeOffset createdTime { get; init; }
+       public DateTimeOffset CreatedDate { get; init; }
     }
 }
