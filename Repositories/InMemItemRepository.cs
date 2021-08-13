@@ -3,9 +3,9 @@ using System;
 using System.Linq;
 using System.Collections.Generic;
 using   Catalog.Entities;
-namespace Catalog.Reposorities
+namespace Catalog.Repositories
 {
-  public class InMemoryRepository
+  public class InMemItemsRepository
   {
 
       private readonly List<Item> items = new ()
